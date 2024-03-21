@@ -1,0 +1,52 @@
+body {
+    background-color: #d0e8f0;
+}
+
+h1 {
+    color: #666666;
+    font-size: 40px;
+    font-family: serif;
+}
+#startButton {
+    color: #666666;
+    background-color: #f67eaa;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    font-family: serif;
+    animation: blink 1s infinite;
+    border-radius: 50%;
+    font-weight: bold;
+    border: 2px solid #666666;
+}
+#startButton:hover {
+    background-color: #45a049;
+}
+@keyframes blink {
+    0% { background-color: #f67eaa; } /* 初期の背景色 */
+    50% { background-color: aqua; } /* 点滅する背景色 */
+    100% { background-color: #f67eaa; } /* 初期の背景色に戻る */
+  }
+#typing {
+    color: black;
+    background-color: aqua;
+    font-size: 70px;
+    font-family: serif;
+}
+#finish {
+    color: white;
+    font-size: 65px;
+    font-family: serif;
+}
+#time {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#Qimg {
+    width: 1000px;
+    height: 560px;
+}
+.finish-background {
+    background-image: url(https://www.bing.com/th/id/OGC.7ac4bc3263f9afaf5258514e293f5d8e?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f61KXXDgl7rZPW%2fgiphy.gif&ehk=vci2IPwvb1y8UXzSS1kcIxudCyDkeNUyL2y59aafpsc%3d);
+}
