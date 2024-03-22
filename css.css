@@ -1,11 +1,13 @@
 body {
     background-color: #d0e8f0;
 }
-
-h1 {
+#title {
+    display: none;
+    margin-bottom: 5px;
+    text-align: left;
     color: #666666;
     font-size: 40px;
-    font-family: serif;
+    font-family: 'Cherry Swash', cursive;
 }
 #startButton {
     color: #666666;
@@ -20,7 +22,7 @@ h1 {
     border: 2px solid #666666;
 }
 #startButton:hover {
-    background-color: #45a049;
+    background-color: #f61313;
 }
 @keyframes blink {
     0% { background-color: #f67eaa; } /* 初期の背景色 */
@@ -49,4 +51,21 @@ h1 {
 }
 .finish-background {
     background-image: url(https://www.bing.com/th/id/OGC.7ac4bc3263f9afaf5258514e293f5d8e?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f61KXXDgl7rZPW%2fgiphy.gif&ehk=vci2IPwvb1y8UXzSS1kcIxudCyDkeNUyL2y59aafpsc%3d);
+}
+p#typing {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+#title {
+    animation: fadeInOut 3s infinite;
+}
+#questionCount {
+    text-align: left;
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: serif;
 }
